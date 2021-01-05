@@ -91,7 +91,7 @@ p {
   vertical-align: middle;
 }
 .sidebar-wrapper .contact-list li {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .sidebar-wrapper .contact-list li:last-child {
   margin-bottom: 0;
@@ -100,7 +100,7 @@ p {
   font-size: 14px;
 }
 .sidebar-wrapper .container-block {
-  padding: 30px;
+  padding: 18px;
 }
 .sidebar-wrapper .container-block-title {
   text-transform: uppercase;
@@ -135,10 +135,10 @@ p {
   color: rgba(255, 255, 255, 0.6);
 }
 .sidebar-wrapper .languages-list {
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 .sidebar-wrapper .languages-list li {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 .sidebar-wrapper .languages-list li:last-child {
   margin-bottom: 0;
@@ -147,7 +147,7 @@ p {
   margin-bottom: 0;
 }
 .sidebar-wrapper .interests-list li {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 .sidebar-wrapper .interests-list li:last-child {
   margin-bottom: 0;
