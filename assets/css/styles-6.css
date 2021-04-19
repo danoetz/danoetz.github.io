@@ -43,6 +43,43 @@ p {
   line-height: 1.5;
 }
 .badge-primary{color:#fff;background-color:#007bff}
+.shimmer-android {
+  background: #A4C639;
+  background-image: linear-gradient(to right, #A4C639 0%, #edeef1 20%, #A4C639 40%, #A4C639 100%);
+  background-repeat: no-repeat;
+  background-size: 800px 104px; 
+  display: inline-block;
+  position: relative; 
+  
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards; 
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: placeholderShimmer;
+  -webkit-animation-timing-function: linear;
+}
+.shimmer-iOS {
+  background: #A2AAAD;
+  background-image: linear-gradient(to right, #A2AAAD 0%, #edeef1 20%, #A2AAAD 40%, #A2AAAD 100%);
+  background-repeat: no-repeat;
+  background-size: 800px 104px; 
+  display: inline-block;
+  position: relative; 
+  
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards; 
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-name: placeholderShimmer;
+  -webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes placeholderShimmer {
+  0% {
+    background-position: -468px 0;
+  }
+  
+  100% {
+    background-position: 468px 0; 
+  }
+}
 .wrapper {
   background: #4B6A78;
   max-width: 960px;
