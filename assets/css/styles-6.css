@@ -81,7 +81,6 @@ p {
   }
 }
 .project-title {
-  font-size: 16px;
   display: inline-block;
   border-bottom: 1px solid #97AAC3;
 }
@@ -91,7 +90,6 @@ p {
   font-weight: 500;
 }
 .project-tagline {
-  font-size: 14px;
 }
 .project-badge {
   display: inline-block;
