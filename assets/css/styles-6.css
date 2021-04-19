@@ -84,12 +84,30 @@ p {
   display: inline-block;
   border-bottom: 1px solid #97AAC3;
 }
+.project-title a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #545E6C;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
 .project-title a:hover {
   text-decoration: none;
   color: #3F4650;
-  font-weight: 500;
+  font-weight: bold;
+}
+.project-title a:focus {
+  text-decoration: none;
 }
 .project-tagline {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #545E6C;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .project-badge {
   display: inline-block;
